@@ -5,7 +5,7 @@
 <!-- overlayScrollbars -->
 <link rel="stylesheet" href="<?= base_url('AdminLTE/plugins/overlayScrollbars/css/OverlayScrollbars.min.css')?>">
 <!-- Theme style -->
-<link rel="stylesheet" href="<?= base_url('AdminLTE/dist/css/adminlte.min.css')?>">
+<link rel="stylesheet" href="<?= base_url('AdminLTE/distt/css/adminlte.min.css')?>">
 <!-- Datatables -->
 <link rel="stylesheet" href="<?= base_url('AdminLTE/plugins/datatables-bs4/css/dataTables.bootstrap4.css') ?>">
 <link rel="stylesheet" href="<?= base_url('AdminLTE/plugins/datatables-responsive/css/responsive.bootstrap4.min.css')?>">
@@ -13,7 +13,7 @@
 
 <script src="<?= base_url('adminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js')?>"></script>
 <!-- AdminLTE App -->
-<script src="<?= base_url('adminLTE/dist/js/adminlte.min.js')?>"></script>
+<script src="<?= base_url('adminLTE/distt/js/adminlte.min.js')?>"></script>
 <!-- jQuery -->
 <script src="<?= base_url('AdminLTE/plugins/jquery/jquery.min.js') ?>"></script>
 <!-- Datatables -->

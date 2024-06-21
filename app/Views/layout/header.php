@@ -12,7 +12,7 @@
   <!-- overlayScrollbars -->
   <link rel="stylesheet" href="<?= base_url('AdminLTE/plugins/overlayScrollbars/css/OverlayScrollbars.min.css')?>">
   <!-- Theme style -->
-  <link rel="stylesheet" href="<?= base_url('AdminLTE/dist/css/adminlte.min.css')?>">
+  <link rel="stylesheet" href="<?= base_url('AdminLTE/distt/css/adminlte.min.css')?>">
   <!-- datatable -->
   <link rel="stylesheet" href="<?= base_url('AdminLTE/plugins/datatables-bs4/css/dataTables.bootstrap4.css') ?>"/>
   <link rel="stylesheet" href="<?= base_url('AdminLTE/plugins/datatables-responsive/css/responsive.bootstrap4.min.css')?>">
