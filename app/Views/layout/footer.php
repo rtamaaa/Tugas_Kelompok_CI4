@@ -22,7 +22,7 @@
 <!-- Bootstrap 4 -->
 <script src="<?=base_url('/adminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js')?>"></script>
 <!-- AdminLTE App -->
-<script src="<?=base_url('/adminLTE/dist/js/adminlte.min.js')?>"></script>
+<script src="<?=base_url('/adminLTE/distt/js/adminlte.min.js')?>"></script>
 <!-- Datatables -->
 <script src="<?php echo base_url('AdminLTE/plugins/jquery/jquery.min.js') ?>"></script>
         <script src="<?php echo base_url('AdminLTE/plugins/datatables/jquery.dataTables.js') ?>"></script>

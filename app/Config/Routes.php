@@ -10,7 +10,6 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Dashboard::index');
 $routes->get('Dashboard/show/(:num)', 'Dashboard::show/$1');
 
-
 // Search route
 $routes->post('/', 'Dashboard::search');
 
@@ -19,8 +18,8 @@ $routes->get('login', 'Auth::login');
 $routes->post('authenticate', 'Auth::authenticate');
 $routes->get('logout', 'Auth::logout');
 
-// User routes
-$routes->group('user', function($routes) {
+// User routes with authentication filter
+$routes->group('user', ['filter' => 'auth'], function($routes) {
     $routes->get('/', 'User::index');
     $routes->get('create', 'User::create');
     $routes->post('store', 'User::store');
@@ -29,8 +28,8 @@ $routes->group('user', function($routes) {
     $routes->get('delete/(:num)', 'User::delete/$1');
 });
 
-// Content routes
-$routes->group('content', function($routes) {
+// Content routes with authentication filter
+$routes->group('content', ['filter' => 'auth'], function($routes) {
     $routes->get('/', 'Content::index');
     $routes->get('create', 'Content::create');
     $routes->post('store', 'Content::store');
@@ -38,5 +37,4 @@ $routes->group('content', function($routes) {
     $routes->post('update/(:num)', 'Content::update/$1');
     $routes->get('delete/(:num)', 'Content::delete/$1');
     $routes->get('read/(:num)', 'Content::read/$1');
-
 });
