@@ -64,11 +64,20 @@
           <i class="fas fa-expand-arrows-alt"></i>
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-          <i class="fas fa-th-large"></i>
+      <li class="nav-item dropdown">
+      <a class="nav-link" data-toggle="dropdown" href="#" role="button">
+        <i class="fas fa-user"></i>
+      </a>
+      <div class="dropdown-menu dropdown-menu-right">
+        <a href="#" class="dropdown-item">
+          <i class="fas fa-user-cog mr-2"></i> Profile
         </a>
-      </li>
+        <div class="dropdown-divider"></div>
+        <a href="<?= base_url('logout') ?>" class="dropdown-item">
+          <i class="fas fa-sign-out-alt mr-2"></i> Logout
+        </a>
+      </div>
+    </li>
     </ul>
   </nav>
   <!-- /.navbar -->
